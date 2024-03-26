@@ -1,0 +1,25 @@
+.paddingMe{
+    width: 97vw;
+    padding: 1.1rem;
+}
+
+.emptyComponent{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}   
+
+.emptyImg{
+    width: 350px;
+}
+
+.shopBtn{
+    margin-top: 1rem;
+    text-transform:none;
+    width:204px;
+    background-color: #2874f0;;
+}
