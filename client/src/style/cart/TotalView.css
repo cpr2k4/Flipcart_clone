@@ -1,0 +1,32 @@
+.header{
+    color: #878787;
+}
+
+.Container{
+    background-color: #fff;
+    padding: 15px 24px;
+    margin-left: 1rem;
+}
+
+.Container p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totAmount{
+    margin-top:30px;
+    margin-bottom:0.9rem;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: orangered;
+}

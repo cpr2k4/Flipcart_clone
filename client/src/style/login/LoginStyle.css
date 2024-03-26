@@ -1,0 +1,38 @@
+.Image{
+    background: #2287ec url("https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png") no-repeat 50%;
+    height: 100%;
+    width: 40%;
+}
+.Image p{
+    margin:2rem 1rem 0rem 1.5rem;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.LoginDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:space-evenly;
+    padding:0 0.5rem 0 1.5rem;
+    height: 100%;
+    width: 52%;
+}
+
+.terms{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.loginBtn{
+    text-transform: none;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    width: 100%;
+}
+.loginBtn:hover{
+    background-color: rgb(251, 163, 49);
+}
+.centerAlign{
+    align-self: center;
+}

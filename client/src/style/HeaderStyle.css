@@ -1,0 +1,77 @@
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: end;   
+    height: 40px;
+    width: 100px;
+    margin-right:2.25rem;
+    margin-left: 3.5rem;
+}
+.loginBtn{
+    background-color: white;
+    color: blue;
+}
+
+.profile{
+    color: yellow;
+}
+
+.hamBurger{
+    display: none;
+}
+
+@media only screen and (max-width:1024px){
+    .logo{
+        margin-left: 1rem;
+    }
+    .hamBurger{
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        margin: 0.2rem;
+    }
+    .customButtonsNavbar{
+        display: none;
+    }
+    .profile{
+        color: orangered;
+    }
+}
+
+.searchContainer {
+    display: flex;
+    overflow: visible; /* Allow overflow */
+    flex-direction: column; /* Ensure items stack vertically */
+    background: #fff;
+    width: 50%;
+    margin-left: 10px;
+    align-content: space-around;
+    border-radius: 2px;
+    color: black;
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds maximum height */
+}
+
+.listWrapper{
+    width: 50vw;
+    overflow-x: scroll;
+    position: absolute;
+    background:#fff;
+    color: #000;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:375px){
+    .navStyle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .searchContainer{
+        width: 85vw;
+        margin: 0.5rem auto;
+    }
+    .listWrapper{
+        width: 85vw;
+        max-height: 30vh;
+    }
+}
